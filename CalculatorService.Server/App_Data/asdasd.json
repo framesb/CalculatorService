@@ -1,0 +1,1 @@
+{"Operations":[{"$type":"CalculatorService.Domain.Entities.MultOperation, CalculatorService.Domain","Operation":"Mult","Factors":[2,7],"Calculation":"2 * 7 = 14","Date":"2017-01-19T10:21:53.6502413+01:00"}]}

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.Server", "CalculatorService.Server\CalculatorService.Server.csproj", "{585026BD-F824-4F9E-8E59-9C7833AD0B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.Server.Tests", "CalculatorService.Server.Tests\CalculatorService.Server.Tests.csproj", "{5C90A264-F946-4FDF-A335-6018E0EDDFC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.Domain", "CalculatorService.Domain\CalculatorService.Domain.csproj", "{D65B30F2-5A19-48A8-9FB9-9642E24F2F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.Client", "CalculatorService.Client\CalculatorService.Client.csproj", "{BFCA383F-86BF-4515-8232-4F07AC93979E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.JsonPersistence", "CalculatorService.Data\CalculatorService.JsonPersistence.csproj", "{2D9E3229-D124-466A-8EB0-D7A369CB4359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.Domain.Tests", "CalculatorService.Domain.Tests\CalculatorService.Domain.Tests.csproj", "{E7739230-2121-4CA1-8766-AF21DD015419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7B52FD25-9A69-4D23-90C8-CEFB38687A26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C86C58C9-3F2E-4726-914E-ED8C5EA2C9E0}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{585026BD-F824-4F9E-8E59-9C7833AD0B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585026BD-F824-4F9E-8E59-9C7833AD0B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585026BD-F824-4F9E-8E59-9C7833AD0B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585026BD-F824-4F9E-8E59-9C7833AD0B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C90A264-F946-4FDF-A335-6018E0EDDFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C90A264-F946-4FDF-A335-6018E0EDDFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C90A264-F946-4FDF-A335-6018E0EDDFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C90A264-F946-4FDF-A335-6018E0EDDFC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65B30F2-5A19-48A8-9FB9-9642E24F2F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65B30F2-5A19-48A8-9FB9-9642E24F2F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65B30F2-5A19-48A8-9FB9-9642E24F2F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65B30F2-5A19-48A8-9FB9-9642E24F2F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCA383F-86BF-4515-8232-4F07AC93979E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCA383F-86BF-4515-8232-4F07AC93979E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCA383F-86BF-4515-8232-4F07AC93979E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCA383F-86BF-4515-8232-4F07AC93979E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9E3229-D124-466A-8EB0-D7A369CB4359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9E3229-D124-466A-8EB0-D7A369CB4359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9E3229-D124-466A-8EB0-D7A369CB4359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9E3229-D124-466A-8EB0-D7A369CB4359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7739230-2121-4CA1-8766-AF21DD015419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7739230-2121-4CA1-8766-AF21DD015419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7739230-2121-4CA1-8766-AF21DD015419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7739230-2121-4CA1-8766-AF21DD015419}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C90A264-F946-4FDF-A335-6018E0EDDFC3} = {7B52FD25-9A69-4D23-90C8-CEFB38687A26}
+		{E7739230-2121-4CA1-8766-AF21DD015419} = {7B52FD25-9A69-4D23-90C8-CEFB38687A26}
+	EndGlobalSection
+EndGlobal

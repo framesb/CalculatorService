@@ -1,0 +1,1 @@
+{"ClientId":"client_1","Operations":[{"$type":"CalculatorService.Domain.Entities.DivOperation, CalculatorService.Domain","Operation":"Div","Dividend":4,"Divisor":5,"Calculation":"4 / 5 = 0, Remainder = 4 ","Date":"2017-01-19T08:37:09.2130516+01:00"}]}
